@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: action/checkout@v1
-    - name: Deploy app
+    - name: Deploy app1
       uses: sebastianpopp/git-ftp-action@releases/v3
       with: 
         url: "s1.ct8.pl/domains/julita.ct8.pl/public_html/wp-content/themes/moj_szablon"
